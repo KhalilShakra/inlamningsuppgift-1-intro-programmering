@@ -1,0 +1,29 @@
+Start
+
+  antalLånade = 0
+
+  Console.WriteLine("Vill du låna en bok? (Ja/Nej)")
+  svar = Console.ReadLine()
+
+  // == är lika med Ja	
+  Så länge svar == "Ja": 	
+
+  Console.WriteLine("Vad heter boken?")
+  bokNamn = Console.ReadLine()
+
+  if boken finns:
+  if antalLånade < 2:
+  Låna ut boken
+  antalLånade = antalLånade + 1
+  Console.WriteLine("Du har lånat: " + bokNamn)
+  else:
+  Console.WriteLine("Du har redan lånat 2 böcker, du kan inte låna flera.")
+  else:
+  Console.WriteLine("Boken finns inte.")
+  Console.WriteLine("Vill du låna en bok? (Ja/Nej)")
+
+  svar = Console.ReadLine()
+
+  Console.WriteLine("Programmet avslutas.")
+
+Slut

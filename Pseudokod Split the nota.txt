@@ -1,0 +1,20 @@
+Start
+
+  Console.WriteLine("Hur mycket är notan?")
+  summa = Console.ReadLine();
+
+  Console.WriteLine("Hur många är ni?")
+  antalVänner = Console.ReadLine();
+
+  Console.WriteLine("Hur mycket dricks?")
+  dricks = Console.ReadLine();
+
+  // Lägg på dricksen på notan
+  totalSumma = summa + (summa * dricks)
+
+  // Dela upp totalen mellan alla vänner
+  perPerson = totalSumma / antalVänner
+
+  Console.WriteLine("Varje person betalar: " + perPerson);
+
+Slut

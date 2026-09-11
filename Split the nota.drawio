@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="3_QO2Q98HeOgH1zsN6iT">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="50" width="120" x="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" value="Skriv &quot;Hur mycket är notan?&quot;&lt;br&gt;Läs summa" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" value="Skriv &quot;Hur många är ni?&quot;&lt;br&gt;Läs antalVänner" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" value="Skriv &quot;Hur mycket dricks?&quot;&lt;br&gt;Läs dricks" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="totalSumma = summa + (summa * dricks)" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="perPerson = totalSumma / antalVänner" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="o1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" value="Skriv &quot;Varje person betalar: &quot; + perPerson" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Slut" vertex="1">
+          <mxGeometry height="50" width="120" x="240" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="s" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="i1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="i1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="i2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="i2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="i3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="i3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="p1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="p2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="o1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="o1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
